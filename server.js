@@ -8,7 +8,7 @@ config();
 const app  = express();
 const port = 3001;
 
-app.use(cors({ origin: ['http://localhost:5173', 'http://localhost:4173'] }));
+app.use(cors({ origin: ['http://localhost:5173', 'http://localhost:4173', 'https://portfolio-app-two-beige-77.vercel.app'] }));
 app.use(express.json());
 
 const anthropic = new Anthropic({ apiKey: process.env.VITE_ANTHROPIC_API_KEY });

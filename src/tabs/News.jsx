@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ALL_STOCKS, BASKET_A, BASKET_B } from '../data/stocks.js';
 
-const PROXY = 'http://localhost:3001/api/anthropic';
+const PROXY = 'https://portfolio-app-production-ee72.up.railway.app/api/anthropic';
 
 async function fetchStockNews(ticker, name) {
   const res = await fetch(PROXY, {

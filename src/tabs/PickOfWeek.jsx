@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const PROXY = 'http://localhost:3001/api/anthropic';
+const PROXY = 'https://portfolio-app-production-ee72.up.railway.app/api/anthropic';
 
 const SECTORS = [
   "Technology", "Healthcare", "Financial Services", "Consumer Discretionary",
